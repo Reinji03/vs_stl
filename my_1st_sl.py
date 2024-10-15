@@ -29,5 +29,5 @@ chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"]) # Dat
 st.bar_chart(chart_data) # 바 차트 출력
 
 st.write('# 4. 이미지 표시하기') #텍스트 출력
-img = Image.open('python.jpg') # 이미지 파일 열기
+img = image.open('python.jpg') # 이미지 파일 열기
 st.image(img,width=300) # 이미지 출력
